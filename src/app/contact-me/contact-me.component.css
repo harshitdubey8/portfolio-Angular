@@ -1,0 +1,50 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #2d3250;
+  padding-bottom: 10px;
+  padding-top: 56px;
+}
+h2 {
+  color: white;
+}
+
+input,
+textarea {
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+  outline-width: 0;
+  border: none;
+  border-bottom: 1px white solid;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.form-row {
+  padding-bottom: 10px;
+}
+
+.submit {
+  color: black;
+  background-color: #f6d776;
+  height: 30px;
+  width: auto;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+h3 {
+  color: white;
+}

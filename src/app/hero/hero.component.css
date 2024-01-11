@@ -1,0 +1,36 @@
+.hero-page {
+  display: flex;
+  padding: 50px;
+}
+
+.right-hero {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-hero {
+  width: 50%;
+  /* color: white; */
+}
+
+.hero-title {
+  font-size: 50px;
+}
+
+.spinning-image {
+  width: 300px; /* Adjust image size as needed */
+  height: auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

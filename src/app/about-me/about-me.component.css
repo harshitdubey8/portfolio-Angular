@@ -1,0 +1,28 @@
+.about {
+  padding: 30px;
+  background-color: #e5e1da;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me {
+  width: 30%;
+  text-align: center;
+}
+
+.education {
+  width: 30%;
+}
+
+.work-experience {
+  width: 30%;
+}
+
+p,
+li {
+  font-size: 16px;
+}
+
+h2 {
+  color: #860a35;
+}

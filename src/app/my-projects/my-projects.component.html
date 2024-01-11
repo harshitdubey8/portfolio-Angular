@@ -1,0 +1,16 @@
+<div class="projects-section">
+  <h2>My Projects</h2>
+
+  <div class="cards">
+    <div *ngFor="let item of projects" class="card">
+      <div class="item">
+        <img class="project-image" src="{{ item.img }}" />
+        <div class="card-content">
+          <p>Project Name : {{ item.name }}</p>
+          <p>Role : {{ item.role | uppercase }}</p>
+          <a href="{{ item.url }}" target="_blank">Project URL</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

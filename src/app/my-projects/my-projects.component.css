@@ -1,0 +1,66 @@
+.projects-section {
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e1da;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  transition: transform 0.3s ease-in-out; /* Adding transition for hover effect */
+}
+
+.card:hover {
+  transform: translateY(
+    -5px
+  ); /* Applying hover effect by moving the card slightly up */
+}
+
+.item {
+  /* padding: 30px; */
+}
+
+.card-content {
+  padding: 30px;
+}
+
+.item p {
+  margin: 0;
+  font-size: 15px;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #3498db;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #2980b9; /* Changing link color on hover */
+}
+
+.project-image {
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
+  /* align-self: center; */
+}
+
+h2 {
+  color: #860a35;
+}

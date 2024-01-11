@@ -1,0 +1,48 @@
+.skills-section {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.skills-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill {
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.skill-name,
+.skill-level {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.advance {
+  background-color: #2ecc71; /* Green */
+}
+
+.intermediate {
+  background-color: #3498db; /* Blue */
+}
+
+.beginner {
+  background-color: #e74c3c; /* Red */
+}
