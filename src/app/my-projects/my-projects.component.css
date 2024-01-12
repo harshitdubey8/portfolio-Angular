@@ -29,10 +29,6 @@
   ); /* Applying hover effect by moving the card slightly up */
 }
 
-.item {
-  /* padding: 30px; */
-}
-
 .card-content {
   padding: 30px;
 }
